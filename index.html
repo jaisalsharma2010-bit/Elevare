@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Elevare</title>
+  <meta name="description" content="Elevare is a focus timer and study log. Rise, block by block.">
+  <meta name="theme-color" content="#2207c1">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/timer-styles.css">
+  <link rel="stylesheet" href="css/panel.css">
+</head>
+<body>
+  <div id="app">
+    <div class="bg" id="bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+    <header class="topbar">
+      <div class="brand"><svg class="brand-logo" viewBox="0 0 1971.4 457" fill="currentColor" role="img" aria-label="Elevare"><path d="M107 0 L479.5 0 C499.74 0 515 10.54 515 24.5 L515 90.5 C515 104.46 499.74 115 479.5 115 L207.7 115 Q204.8 115 203.9 117.8 L189.2 162.6 Q188.2 166 191.9 166 L467 166 C490.2 166 507 177.55 507 193.5 L507 263.5 C507 279.45 490.2 291 467 291 L63.5 291 C40.3 291 23.5 279.45 23.5 263.5 L23.5 193.5 C23.5 177.55 40.3 166 63.5 166 L101.1 166 Q104.3 166 105.4 163.1 L120.9 118 Q121.9 115 118.9 115 L107 115 C86.76 115 71.5 104.46 71.5 90.5 L71.5 24.5 C71.5 10.54 86.76 0 107 0 Z M50 341 L72.7 341 Q76.1 341 76.9 338 C79.9 327 87.7 321 101 321 L340.5 321 C353.7 321 361.1 326.4 363.9 337.2 Q364.9 341 369.1 341 L514.5 341 C544.5 341 564.5 351.6 564.5 367.5 L564.5 430.5 C564.5 446.4 544.5 457 514.5 457 L50 457 C20 457 0 446.4 0 430.5 L0 367.5 C0 351.6 20 341 50 341 Z"/><path d="M679.5 455V166H869.64V210.94H735.23V286.51H857.26V330.07H735.23V410.06H869.64V455ZM894.6 455V166H950.33V455ZM1080.07 459.95Q1048.58 459.95 1024.42 446.66Q1000.26 433.36 986.65 409.57Q973.04 385.78 973.04 354.55Q973.04 322.42 986.45 297.87Q999.85 273.31 1023.97 259.29Q1048.1 245.27 1080.17 245.27Q1110.79 245.27 1134.08 258.57Q1157.36 271.86 1170.49 294.63Q1183.63 317.39 1183.63 346.38Q1183.63 350.5 1183.51 355.62Q1183.38 360.73 1182.73 366.26H1012.85V332.17H1127.09Q1125.86 312.54 1112.79 300.91Q1099.72 289.29 1080.31 289.29Q1065.95 289.29 1053.94 295.68Q1041.93 302.07 1034.94 315.1Q1027.95 328.12 1027.95 348.2V360.24Q1027.95 376.88 1034.54 389.09Q1041.13 401.3 1052.99 407.95Q1064.84 414.6 1079.59 414.6Q1094.76 414.6 1105.1 407.84Q1115.43 401.07 1120.83 390.02H1177.6Q1171.75 409.74 1158.04 425.57Q1144.32 441.4 1124.5 450.68Q1104.67 459.95 1080.07 459.95ZM1248.76 455 1182.77 250.22H1241.37L1289.83 418.14H1291.97L1340.6 250.22H1398.61L1332.62 455ZM1477.78 459.95Q1453.42 459.95 1437.63 451.65Q1421.85 443.34 1414.4 429.25Q1406.95 415.17 1406.95 398.24Q1406.95 379.36 1416.68 365.03Q1426.42 350.7 1446.2 342.58Q1465.98 334.46 1496.13 334.46H1547.58Q1547.58 319.07 1543.33 309.13Q1539.07 299.18 1530.17 294.36Q1521.27 289.53 1507.59 289.53Q1491.72 289.53 1480.24 296.7Q1468.77 303.88 1466.19 319.06H1412.05Q1414.29 296.52 1426.83 280.03Q1439.37 263.55 1460.26 254.41Q1481.15 245.27 1507.83 245.27Q1537.39 245.27 1558.89 255.07Q1580.38 264.87 1591.85 283.54Q1603.32 302.2 1603.32 329.08V455H1557.23L1551.27 423.05H1549.62Q1543.35 432.48 1535.6 439.43Q1527.84 446.37 1518.87 450.84Q1509.91 455.31 1499.51 457.63Q1489.1 459.95 1477.78 459.95ZM1496.32 416.85Q1507.65 416.85 1516.23 413.04Q1524.82 409.23 1530.9 402.54Q1536.98 395.85 1540.59 387.08Q1544.19 378.31 1545.4 368.56H1502.41Q1489.68 368.56 1481.53 371.73Q1473.38 374.91 1469.59 380.5Q1465.79 386.1 1465.79 393.44Q1465.79 401.03 1469.62 406.3Q1473.45 411.57 1480.37 414.21Q1487.29 416.85 1496.32 416.85ZM1628.25 455V250.22H1675.74L1680.49 295.05H1682.14Q1691.26 273.49 1702.01 262.84Q1712.77 252.19 1726.62 248.73Q1740.47 245.27 1757.94 245.27V304.11H1742.81Q1728.71 304.11 1717.61 307.35Q1706.5 310.6 1699.09 317.4Q1691.68 324.21 1687.83 335.23Q1683.98 346.25 1683.98 361.96V455ZM1867.8 459.95Q1836.31 459.95 1812.15 446.66Q1787.99 433.36 1774.38 409.57Q1760.77 385.78 1760.77 354.55Q1760.77 322.42 1774.18 297.87Q1787.58 273.31 1811.7 259.29Q1835.83 245.27 1867.9 245.27Q1898.52 245.27 1921.81 258.57Q1945.09 271.86 1958.22 294.63Q1971.36 317.39 1971.36 346.38Q1971.36 350.5 1971.24 355.62Q1971.12 360.73 1970.46 366.26H1800.58V332.17H1914.83Q1913.59 312.54 1900.52 300.91Q1887.45 289.29 1868.04 289.29Q1853.68 289.29 1841.67 295.68Q1829.66 302.07 1822.67 315.1Q1815.68 328.12 1815.68 348.2V360.24Q1815.68 376.88 1822.27 389.09Q1828.87 401.3 1840.72 407.95Q1852.57 414.6 1867.32 414.6Q1882.49 414.6 1892.83 407.84Q1903.17 401.07 1908.56 390.02H1965.34Q1959.48 409.74 1945.77 425.57Q1932.05 441.4 1912.23 450.68Q1892.4 459.95 1867.8 459.95Z"/></svg></div>
+      <button type="button" class="quote" id="quote" title="Show another quote"></button>
+    </header>
+
+    <main class="stage">
+      <section class="view view-focus" id="viewFocus" aria-label="Focus timer">
+        <h1 class="intention-wrap">
+          <button type="button" class="intention" id="intention">What do you want to focus on?</button>
+        </h1>
+        <form class="intention-form" id="intentionForm" hidden autocomplete="off">
+          <input id="intentionInput" maxlength="140" placeholder="What do you want to focus on?" aria-label="What do you want to focus on?">
+          <select id="intentionCategory" aria-label="Category"></select>
+          <button type="submit" class="btn solid">Save</button>
+        </form>
+
+        <div class="phases" id="phases" role="group" aria-label="Session type">
+          <button type="button" data-phase="focus">Focus</button>
+          <button type="button" data-phase="short">Short break</button>
+          <button type="button" data-phase="long">Long break</button>
+        </div>
+        <div class="rounds" id="rounds" role="img"></div>
+
+        <div class="timer-display" id="timerDisplay" role="timer"></div>
+
+        <div class="controls">
+          <button type="button" class="ctrl primary" id="btnPlay"></button>
+          <button type="button" class="ctrl" id="btnReset" aria-label="Reset timer" title="Reset (R)"></button>
+          <button type="button" class="ctrl" id="btnMini" aria-label="Mini player" title="Mini player"></button>
+        </div>
+        <div class="under" id="under"></div>
+      </section>
+
+      <section class="view view-home" id="viewHome" aria-label="Home" hidden>
+        <p class="greeting" id="greeting"></p>
+        <div class="home-clock" id="homeClock"></div>
+        <p class="home-date" id="homeDate"></p>
+        <p class="home-today" id="homeToday"></p>
+      </section>
+
+      <section class="view view-ambient" id="viewAmbient" aria-label="Ambient" hidden>
+        <div class="ambient-clock" id="ambientClock"></div>
+        <p class="ambient-timer" id="ambientTimer"></p>
+      </section>
+    </main>
+
+    <nav class="dock dock-left" aria-label="Tools">
+      <button type="button" class="tool" data-popover="tasks" aria-label="Tasks" title="Tasks"></button>
+      <button type="button" class="tool" data-popover="sounds" aria-label="Sounds" title="Sounds"></button>
+      <button type="button" class="tool" data-popover="notes" aria-label="Notes" title="Notes"></button>
+    </nav>
+
+    <nav class="dock dock-right" aria-label="App">
+      <button type="button" class="tool streak" id="btnStreak"></button>
+      <div class="switch" id="viewSwitch" role="group" aria-label="Screen">
+        <button type="button" data-view="ambient" aria-label="Ambient screen" title="Ambient"></button>
+        <button type="button" data-view="home" aria-label="Home screen" title="Home"></button>
+        <button type="button" data-view="focus" aria-label="Focus screen" title="Focus"></button>
+      </div>
+      <button type="button" class="tool" id="btnSettings" aria-label="Settings" title="Settings (S)"></button>
+      <button type="button" class="tool" id="btnFullscreen" aria-label="Full screen" title="Full screen (F)"></button>
+    </nav>
+
+    <div class="popover" id="popover" role="dialog" hidden></div>
+    <div class="mini" id="mini" hidden></div>
+  </div>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1">
+      <nav class="panel-nav" id="panelNav" aria-label="Settings sections"></nav>
+      <div class="panel-main">
+        <header class="panel-head">
+          <h2 id="panelTitle"></h2>
+          <button type="button" class="icon-btn" id="panelClose" aria-label="Close settings"></button>
+        </header>
+        <div class="panel-body" id="panelBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div class="drop-veil" id="dropVeil" hidden><p>Drop to use as your background</p></div>
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <noscript><p class="noscript">Elevare needs JavaScript to run.</p></noscript>
+
+  <script src="js/utils.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/media.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/ui/icons.js"></script>
+  <script src="js/ui/common.js"></script>
+  <script src="js/ui/digits.js"></script>
+  <script src="js/ui/background.js"></script>
+  <script src="js/ui/main.js"></script>
+  <script src="js/ui/popovers.js"></script>
+  <script src="js/ui/mini.js"></script>
+  <script src="js/ui/heatmap.js"></script>
+  <script src="js/ui/trend.js"></script>
+  <script src="js/ui/dashboard.js"></script>
+  <script src="js/ui/settings.js"></script>
+  <script src="js/ui/panel.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
